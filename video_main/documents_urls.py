@@ -7,9 +7,9 @@ from rest_framework.permissions import AllowAny
 
 schema_view = get_schema_view(
     openapi.Info(
-        title = "Video Platform Open API",
+        title = "Video Platform Settings Open API",
         default_version= "version_0.1",
-        description = "Video Platform Open API 문서 페이지 입니다.",
+        description = "Video Platform Settings Open API 문서 페이지 입니다.",
     ),
     validators=['flex'],
     public = True,
