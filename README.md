@@ -12,5 +12,5 @@ URL LIST
 /VideoList/ : Show VideoList  
 /VideoUpload/ : Upload Video  
 /VideoList/{id} : Show Video<id> detail  
-/VideoList/{id}/CommentList : Show CommentList 
+/VideoList/{id}/CommentList : Show CommentList  
 /VideoList/{id}/CommentsList{no} : Show Comment{no} detail 
